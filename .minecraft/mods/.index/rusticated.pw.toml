@@ -1,0 +1,14 @@
+name = "Rusticated"
+filename = "rusticated-3.0.1-fabric.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "0bc1aa3a8ce23fba3a27c2d1acab4730671cbd5e"
+
+[update]
+[update.curseforge]
+file-id = 4802419
+project-id = 750794

@@ -1,0 +1,34 @@
+# ============================================================
+# PrismLauncher instance git policy — "Alex's Vanilla Experience"
+#
+# IN  (tracked): pack definition — mods/ + mods/.index (packwiz pins),
+#                config/, defaultconfigs/, resourcepacks/, shaderpacks/,
+#                schematics/, instance.cfg, mmc-pack.json, icon.png
+# OUT (ignored): everything regenerated at runtime or personal/volatile
+# ============================================================
+
+# --- Worlds & player media (volatile, large) ---
+.minecraft/saves/
+.minecraft/screenshots/
+
+# --- Mod runtime data & account/session data (contains auth — never commit) ---
+.minecraft/essential/
+.minecraft/knownkeys.txt
+.minecraft/.fabric/
+.minecraft/modernfix/
+.minecraft/data/
+.minecraft/moddata/
+
+# --- Logs / crash dumps / telemetry ---
+.minecraft/logs/
+.minecraft/crash-reports/
+
+# --- Launcher/session caches and volatile user prefs ---
+.minecraft/usercache.json
+.minecraft/usernamecache.json
+.minecraft/options.txt
+.minecraft/patchouli_data.json
+.minecraft/irisUpdateInfo.json
+
+# --- Runtime dumps from mod debugging ---
+.minecraft/sparsestructures/

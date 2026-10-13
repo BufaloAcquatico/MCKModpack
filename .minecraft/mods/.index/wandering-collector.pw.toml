@@ -1,0 +1,14 @@
+name = "Wandering Collector"
+filename = "wanderingcollector-1.2.1+mc1.20-pre5.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/enYiOcBu/versions/STgaTh8X/wanderingcollector-1.2.1%2Bmc1.20-pre5.jar"
+hash-format = "sha512"
+hash = "8518fc92b8fb339d310c117cfb7d04435f1c1337ec78bea2a887e9282b7a784fd824301e07f0267fbc7f9308caff3f3d5b284adfbaf8a364300b02cc3393d6a5"
+
+[update]
+[update.modrinth]
+mod-id = "enYiOcBu"
+version = "STgaTh8X"

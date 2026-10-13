@@ -1,0 +1,14 @@
+name = "Configured"
+filename = "Configurable-mc1.20.1-v1.3.1.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/HlpEBg3R/versions/ebkJUAO4/Configurable-mc1.20.1-v1.3.1.jar"
+hash-format = "sha512"
+hash = "4be8abcdb427b7601375fba3271a9124805021bcfb68817092f1fad87c04bcf777be87e6b4ddd1dc4dacfb936278bdad4fc8e75fd3b12f119d84664e14b818f5"
+
+[update]
+[update.modrinth]
+mod-id = "HlpEBg3R"
+version = "ebkJUAO4"
