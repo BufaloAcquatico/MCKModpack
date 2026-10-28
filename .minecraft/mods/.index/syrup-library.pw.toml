@@ -1,0 +1,18 @@
+filename = 'syrup_library-0.5.1+1.20.1-fabric.jar'
+name = 'Syrup Library'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.5.1+1.20.1-fabric'
+
+[download]
+hash = '5d71097f3f6820f18153908d9ef44ef73cfd1d046920e28893c7f16525f2e05fe2d15570f838e154fb861076bdaed5bce55314fbeed75e8781feea40f4a8307c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9tBNzmjo/versions/Hshsaf85/syrup_library-0.5.1%2B1.20.1-fabric.jar'
+
+[update.modrinth]
+mod-id = '9tBNzmjo'
+version = 'Hshsaf85'

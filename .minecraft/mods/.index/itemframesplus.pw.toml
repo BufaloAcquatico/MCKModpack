@@ -1,0 +1,21 @@
+filename = 'itemframesplus-fabric-1.2.1+1.19.jar'
+name = 'ItemFrames+'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2', '1.19.3', '1.19.4', '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.1+1.19'
+
+[download]
+hash = 'c42043fac1310f245327ee0854b0cd8d422787059c68b488f5fa554a60f1257bc6ade005a2147491efcb52ec9c392646c8f491e7a9cae4b646a8303f2e39528f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/WdzRUPck/versions/PW8L67Cd/itemframesplus-fabric-1.2.1%2B1.19.jar'
+
+[update.modrinth]
+mod-id = 'WdzRUPck'
+version = 'PW8L67Cd'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

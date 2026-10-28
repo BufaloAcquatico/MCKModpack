@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "enabled": true,
+  "xp": {
+    "min": 1,
+    "max": 3
+  },
+  "chance": 1.0,
+  "allowCreative": false,
+  "awardOnBreak": true,
+  "awardOnRightClick": true,
+  "automaticCropBlockDetection": true,
+  "crops": {}
+}

@@ -1,0 +1,25 @@
+filename = 'firstperson-fabric-2.7.3-mc1.20.1.jar'
+name = 'First-person Model'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.7.3'
+
+[download]
+hash = '47fe21330b39df901967bcd1f5a21ff5ffb7bb711b0757ce97fa6de9e9fc121a63da1681e0d796225397cca3fcc07fffcf1386c55648e38f917a5ffaf8a1c37a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/H5XMjpHi/versions/vSfLd8fO/firstperson-fabric-2.7.3-mc1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'H5XMjpHi'
+version = 'vSfLd8fO'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'MPCX6s5C'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

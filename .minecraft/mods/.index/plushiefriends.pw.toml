@@ -1,0 +1,25 @@
+filename = 'plushie_friends-1.0.3+1.20.1-fabric.jar'
+name = 'Plushie Friends'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.3+1.20.1-fabric'
+
+[download]
+hash = 'a0a9f3ca6454175db12b4c70416516500260da71c216165038e077f85d95786a0bf73b57c5dd3ffd2338914b892e23c3d5c538c703162e1e6e6f3fd51c42f328'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/dcPq78Za/versions/eBM7hzLV/plushie_friends-1.0.3%2B1.20.1-fabric.jar'
+
+[update.modrinth]
+mod-id = 'dcPq78Za'
+version = 'eBM7hzLV'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9tBNzmjo'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

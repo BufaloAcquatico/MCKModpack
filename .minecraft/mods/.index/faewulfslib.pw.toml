@@ -1,0 +1,21 @@
+filename = 'faewulf_lib-fabric-1.20.1-1.4.0.jar'
+name = "Faewulf's Lib"
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.4.0'
+
+[download]
+hash = '7897eb8e277482acb01b7d5d79056f3a2efeb1c878b1f1fcabfe181bd470335b10345aa9a27cafffa9c5c3e14d00f2841cb2ec48a6e9c1c323aee4ae17ac634a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/q4N9H96q/versions/gvHbg4Bk/faewulf_lib-fabric-1.20.1-1.4.0.jar'
+
+[update.modrinth]
+mod-id = 'q4N9H96q'
+version = 'gvHbg4Bk'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

@@ -1,0 +1,55 @@
+/*
+ * Syrup Library config editor examples
+ */
+{
+  /*
+   * Example toggle setting.
+   * Default: true
+   */
+  enabled: true,
+
+  /*
+   * Restart-required integer, limited to 1 through 32.
+   * Requires a server restart.
+   * Default: 8 | Range: 1 ~ 32
+   */
+  sample_count: 8,
+
+  /*
+   * Example long number.
+   * Default: 1234567890123
+   */
+  sample_id: 1234567890123,
+
+  /*
+   * Example decimal number.
+   * Default: 1.25
+   */
+  sample_scale: 1.25,
+
+  /*
+   * Example text setting.
+   * Default: "Syrup"
+   */
+  sample_name: "Syrup",
+
+  /*
+   * Example list of text values.
+   * Default: [
+  "first",
+  "second",
+  "third",
+]
+   */
+  sample_labels: [
+  "first",
+  "second",
+  "third",
+],
+
+  /*
+   * Example choice with three enum values.
+   * Default: "detailed"
+   */
+  display_mode: "detailed"
+}

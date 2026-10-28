@@ -81,7 +81,8 @@
 				"underground_water_creature": true,
 				"water_creature": true,
 				"water_ambient": true,
-				"misc": true
+				"misc": true,
+				"moth": true
 			}
 		}, 
 		{
@@ -131,6 +132,37 @@
 			"enabled": true,
 			"lines": {
 				"nothing": true
+			}
+		}, 
+		{
+			"name": "system",
+			"name_color": 16755200,
+			"value_color": 5636095,
+			"memory_color_toggle": true,
+			"time_format": "HH:mm:ss",
+			"enabled": true,
+			"lines": {
+				"time": true,
+				"java_version": true,
+				"memory_usage": true,
+				"allocation_rate": true,
+				"allocated_memory": true,
+				"cpu": true,
+				"display": true,
+				"gpu": true,
+				"gpu_utilization": true,
+				"opengl_version": true,
+				"gpu_driver": true
+			}
+		}, 
+		{
+			"name": "fps",
+			"color_high": 5635925,
+			"color_med": 16777045,
+			"color_low": 16733525,
+			"enabled": true,
+			"lines": {
+				"fps": true
 			}
 		}, 
 		{

@@ -1,0 +1,29 @@
+filename = 'exposure-fabric-1.20.1-1.9.22.jar'
+name = 'Exposure'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.9.22'
+
+[download]
+hash = '8fe9d566dc34633b178c74ee7a652d68472ae1b5c7f9bb45a26610432cb80b72df4213423f462ddb9b2602487e7ba461be7d35c376e756b006fbdf114da85042'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/hB899VmG/versions/YDTArQ4T/exposure-fabric-1.20.1-1.9.22.jar'
+
+[update.modrinth]
+mod-id = 'hB899VmG'
+version = 'YDTArQ4T'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ohNO6lps'
+type = 'REQUIRED'
